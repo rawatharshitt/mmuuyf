@@ -1,0 +1,41 @@
+#target{
+    position: absolute;
+    left: 200px;
+    background-color: blue;
+    border: none;
+    width: 90px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family:'cursive';
+    padding: 8px;
+    cursor: pointer;
+    transition: top 0.5s , left 0.5s;
+}
+#game-container{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    margin-top: 80px;
+    margin-left: 660px;
+}
+#yes{
+    position: absolute;
+    left: 20px;
+    background-color: red;
+    border: none;
+    width: 90px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: ' cursive';
+    padding: 8px;
+}
+#bbd{
+    background-image: url('download.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover ;
+}
+.box{
+    position: fixed;
+}
