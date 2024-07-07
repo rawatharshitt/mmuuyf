@@ -7,7 +7,7 @@ function moveTarget(){
     target.style.left = randomX + 'px';
     target.style.top = randomY + 'px';
 }
-target.addEventListener('mouseenter',function(){
+target.addEventListener('click',function(){
     moveTarget();
 })
 const yes = document.getElementById('yes');
